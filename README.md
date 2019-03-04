@@ -11,3 +11,6 @@ The goal of this project is to wrangle [WeRateDogs](https://twitter.com/dog_rate
 > *Additional Data via the Twitter API*:<br>Retweet count and favorite count are two of the notable column omissions from the "Enhanced Twitter Archive." This data can be gathered by anyone from Twitter's API in conjunction with the unique tweet IDs within the archive.
 > 
 > *Image Predictions File*:<br>Every image in the WeRateDogs Twitter archive was passed through a neural network that can classify breeds of dogs. The results are a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
+
+### To Do
+* Improce README to describe different files.
