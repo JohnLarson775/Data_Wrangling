@@ -1,0 +1,12 @@
+# Twitter account that was created: UdacityWeRateDogs
+consumer_key = 'Vx2OStWUIAgt5FKnxPW2KPxh6'
+consumer_secret = 'QRQ0CjpkR3Oq4IZ2FKRGw3QhPvOyr7rPHD2Vv6BYuwADKQXaQR'
+access_token = '1083162932714721281-VldpY3xQVxqkfduzeOhPEHtH95Bw1w'
+access_secret = 'RsFYtY8IEBzCmy9Z5QtqsiXoKW3lxMnlY6UaIkASRPCzq'
+
+# Setup oauth authentication using above access criteria:
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_secret)
+
+# Create API object:
+api = tweepy.API(auth, wait_on_rate_limit = True, wait_on_rate_limit_notify = True)
