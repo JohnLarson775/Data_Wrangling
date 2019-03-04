@@ -6,8 +6,7 @@ The goal of this project is to wrangle [WeRateDogs](https://twitter.com/dog_rate
 
 > **The Data:**
 > 
-> *Enhanced Twitter Archive*:
-> Tweet data that was extracted from the tweet's text. This includes rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Filtered 5000+ tweets for ones with ratings only (2356).
+> *Enhanced Twitter Archive*:<br>Tweet data that was extracted from the tweet's text. This includes rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Filtered 5000+ tweets for ones with ratings only (2356).
 > 
 > *Additional Data via the Twitter API*:
 > Retweet count and favorite count are two of the notable column omissions from the "Enhanced Twitter Archive." This data can be gathered by anyone from Twitter's API in conjunction with the unique tweet IDs within the archive.
