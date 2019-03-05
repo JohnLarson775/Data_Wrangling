@@ -13,4 +13,5 @@ The goal of this project is to wrangle [WeRateDogs](https://twitter.com/dog_rate
 > *Image Predictions File*:<br>Every image in the WeRateDogs Twitter archive was passed through a neural network that can classify breeds of dogs. The results are a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 
 ### To Do
-* Improce README to describe different files.
+* Limited rendering in `wrangle_act.ipynb`. Full version can be seen with nbviewer [here](https://nbviewer.jupyter.org/github/JohnLarson775/Data_Wrangling/blob/master/wrangle_act.ipynb).
+* Improve README to describe different files.
